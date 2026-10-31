@@ -1,0 +1,6 @@
+# Exclude bundled third-party libraries from language statistics.
+OpenXLSX/** linguist-vendored=true
+include/json.hpp linguist-vendored=true
+
+# Exclude generated build files from language statistics.
+**/build/** linguist-generated=true
